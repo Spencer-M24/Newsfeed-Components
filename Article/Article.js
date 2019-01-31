@@ -1,5 +1,4 @@
 // Because classes are not hoised you will need to start your code at the bottom of the page.  Look for the comment "START HERE"
-// window.onload = () => {
 
 class Article {
   constructor(domElement) {
@@ -8,7 +7,7 @@ class Article {
     // create a reference to the ".expandButton" class. 
     this.expandButton = this.domElement.querySelector('.expandButton')
     // Using your expandButton reference, update the text on your expandButton to say "expand"
-    this.expandButton.textContent= "expand";
+    this.expandButton.textContent= 'expand';
     // Set a click handler on the expandButton reference, calling the expandArticle method.
     this.expandButton.addEventListener('click', () => this.expandArticle());
   }
@@ -42,7 +41,8 @@ class Form {
     this.submit.addEventListener('click', () => {
       console.log('does this work');
     })
-
+  }
+}
 
 
 
